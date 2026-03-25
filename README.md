@@ -1,6 +1,6 @@
 # 🚀 FocusFlow – Conversion Landing Page
 
-A modern, responsive landing page designed to help users overcome overwhelm and improve productivity. Build with HTML, CSS, and JavaScript.
+A modern, responsive landing page designed to help users overcome being overwhelmed and improve productivity. Build with HTML, CSS, and JavaScript.
 
 💡 “You’re not lazy. You’re overwhelmed.”  
 A landing page designed to convert attention into action.
