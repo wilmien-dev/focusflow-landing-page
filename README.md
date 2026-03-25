@@ -3,7 +3,7 @@
 A modern, responsive landing page designed to help users overcome overwhelm and improve productivity. Build with HTML, CSS, and JavaScript.
 
 ## 🚀 Live Demo
-https://your-live-link.com
+[https://your-live-link.com](https://wilmien-dev.github.io/focusflow-landing-page/)
 
 ## Features
 - Responsive layout (mobile + desktop)
