@@ -3,7 +3,7 @@
 A modern, responsive landing page designed to help users overcome overwhelm and improve productivity. Build with HTML, CSS, and JavaScript.
 
 ## 🚀 Live Demo
-https://your-live-link.com
+https://wilmien-dev.github.io/focusflow-landing-page/
 
 ## Features
 - Responsive layout (mobile + desktop)
@@ -20,14 +20,15 @@ https://your-live-link.com
 - JavaScript (Vanilla)
 
 ## 📸 Screenshots
-![Header and Hero section](image.png)
-![Pricing toggle Monthly](image-1.png)
-![Pricing toggle Yearly](image-2.png)
-![Email/Sign-up form](image-5.png)
-![Email/Sign-up form validation & Toast notification success feedback](image-6.png)
-![Mobile Navigation Hamburger Menu](image-4.png)
-![Mobile Navigation Hamburger Menu Open](image-7.png)
-![Footer](image-3.png)
+## 📸 Screenshots
+![Header and Hero section](screenshots/image.png)
+![Pricing toggle Monthly](images/image-1.png)
+![Pricing toggle Yearly](images/image-2.png)
+![Email/Sign-up form](images/image-5.png)
+![Email/Sign-up form validation & Toast notification success feedback](images/image-6.png)
+![Mobile Navigation Hamburger Menu](images/image-4.png)
+![Mobile Navigation Hamburger Menu Open](images/image-7.png)
+![Footer](images/image-3.png)
 
 ## 🎯 What This Demonstrates
 - Ability to convert design concepts into clean UI
