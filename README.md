@@ -20,14 +20,14 @@ A modern, responsive landing page designed to help users overcome overwhelm and 
 - JavaScript (Vanilla)
 
 ## 📸 Screenshots
-![Header and Hero section](image.png)
-![Pricing toggle Monthly](image-1.png)
-![Pricing toggle Yearly](image-2.png)
-![Email/Sign-up form](image-5.png)
-![Email/Sign-up form validation & Toast notification success feedback](image-6.png)
-![Mobile Navigation Hamburger Menu](image-4.png)
-![Mobile Navigation Hamburger Menu Open](image-7.png)
-![Footer](image-3.png)
+![Header and Hero section](screenshots/image.png)
+![Pricing toggle Monthly](screenshots/image-1.png)
+![Pricing toggle Yearly](screenshots/image-2.png)
+![Email/Sign-up form](screenshots/image-5.png)
+![Email/Sign-up form validation & Toast notification success feedback](screenshots/image-6.png)
+![Mobile Navigation Hamburger Menu](screenshots/image-4.png)
+![Mobile Navigation Hamburger Menu Open](screenshots/image-7.png)
+![Footer](screenshots/image-3.png)
 
 ## 🎯 What This Demonstrates
 - Ability to convert design concepts into clean UI
