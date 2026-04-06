@@ -80,18 +80,23 @@ It demonstrates the ability to translate UI concepts into a polished, responsive
 
 ---
 
-## 📂 Project Structure
-FocusFlow/
-│
-├── index.html # Page structure
-├── styles.css # Styling and layout
-├── app.js # Interactivity and logic
-├── screenshots/ # Project screenshots
-└── README.md # Documentation
+## 📁 Project Structure
 
----
+```
+FocusFlow/
+├── index.html
+├── styles.css
+├── app.js
+├── screenshots/
+└── README.md
+
+- **index.html** – Page structure  
+- **styles.css** – Styling and layout  
+- **app.js** – Interactivity and logic  
+
+```
 
 ## 👤 Author
 
 **Wilmien Scheepers**  
-Frontend Developer
+Web Frontend Developer

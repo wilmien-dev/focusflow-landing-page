@@ -4,32 +4,43 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FocusFlow – Productivity App</title>
-  <meta name="description" content="FocusFlow helps you plan your day, track tasks, and stay consistent — without overwhelm." />
+  <meta
+    name="description"
+    content="FocusFlow helps you plan your day, track tasks, and stay consistent — without overwhelm."
+  />
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body id="top">
-  <!-- Skip link for accessibility -->
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-  <!-- HEADER -->
   <header class="site-header" id="siteHeader">
     <div class="container header-inner">
       <a class="brand" href="#top" aria-label="FocusFlow home">
-       <img src="assets/images/logo.png" alt="FocusFlow logo" class="logo" />
-       <span class="brand-name"></span>
+        <img src="assets/images/FocusFlow Logo.png" alt="FocusFlow logo" class="logo" />
+        <span class="brand-name"></span>
       </a>
-      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav">
+
+      <button
+        class="nav-toggle"
+        id="navToggle"
+        type="button"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="siteNav"
+      >
         <span class="nav-toggle-bar"></span>
         <span class="nav-toggle-bar"></span>
         <span class="nav-toggle-bar"></span>
       </button>
 
-      <nav class="site-nav" id="siteNav" aria-label="Primary">
-        <a href="#features" class="nav-link">Features</a>
-        <a href="#pricing" class="nav-link">Pricing</a>
-        <a href="#reviews" class="nav-link">Reviews</a>
-        <a href="#faq" class="nav-link">FAQ</a>
+      <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+          <li><a href="#reviews" class="nav-link">Reviews</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+        </ul>
       </nav>
 
       <div class="header-actions">
@@ -39,70 +50,87 @@
     </div>
   </header>
 
-  <!-- MAIN -->
-  <main id="main">
-
-    <!-- HERO -->
-    <section class="section hero" id="top">
+  <main id="main-content">
+    <section class="section hero" aria-labelledby="hero-title">
       <div class="container hero-grid">
         <div class="hero-content">
           <p class="hero-eyebrow">A calmer way to plan your day</p>
 
-          <h1 class="hero-title">Get more done with a system that actually sticks.</h1>
+          <h1 class="hero-title" id="hero-title">
+            You’re not lazy. You’re overwhelmed.
+          </h1>
 
           <p class="hero-subtitle">
-            FocusFlow helps you plan your day, track your tasks, and stay consistent — without overwhelm.
+            FocusFlow helps you clear the chaos and finally stay consistent.
           </p>
 
           <ul class="hero-bullets">
-            <li>✅ Daily plan in 60 seconds</li>
-            <li>✅ Smart reminders that don’t annoy you</li>
-            <li>✅ Simple streaks that keep you going</li>
+            <li>Daily plan in 60 seconds</li>
+            <li>Smart reminders that don’t annoy you</li>
+            <li>Simple streaks that keep you going</li>
           </ul>
 
           <div class="hero-ctas">
             <a class="btn btn-primary" href="#signup">Start Free Trial</a>
-            <a class="btn btn-secondary" href="#features">See how it works</a>
+            <a class="btn btn-secondary" href="#features">Get Started</a>
           </div>
 
-          <p class="hero-note">Free for 7 days • No credit card required</p>
+          <p class="hero-note">
+            Free for 7 days • No credit card required • Cancel anytime
+          </p>
         </div>
 
+        <aside class="hero-media" aria-label="App preview">
+          <div class="app-preview">
+            <h2 class="app-preview-title">Today</h2>
 
-        <div class="hero-media" aria-label="App preview">
-          <!-- Replace with an image if you have one -->
-            <div class="hero-media" aria-label="App preview">
-              <div class="hero-mock">
-                <div class="hero-mock-title">Today</div>
-                <div class="mock-row"></div>
-                <div class="mock-row"></div>
-                <div class="mock-row"></div>
-              </div>
-            </div>          
-        </div>
+            <div class="task-row">
+              <span class="check" aria-hidden="true">✔</span>
+              <span class="text">Finish landing page</span>
+            </div>
+
+            <div class="task-row">
+              <span class="check" aria-hidden="true">✔</span>
+              <span class="text">Send client proposal</span>
+            </div>
+
+            <div class="task-row">
+              <span class="check" aria-hidden="true">☐</span>
+              <span class="text">Gym at 18:00</span>
+            </div>
+          </div>
+        </aside>
       </div>
     </section>
-
-    <!-- SOCIAL PROOF -->
-    <section class="section social-proof" aria-label="Social proof">
-      <div class="container">
-        <p class="social-proof-title">Trusted by busy people at teams like:</p>
-        <div class="logo-row" role="list">
-          <span class="logo-pill" role="listitem">NovaWorks</span>
-          <span class="logo-pill" role="listitem">BrightDesk</span>
-          <span class="logo-pill" role="listitem">StudioNine</span>
-          <span class="logo-pill" role="listitem">PaperTrail</span>
-          <span class="logo-pill" role="listitem">NorthPoint</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- FEATURES -->
-    <section class="section features" id="features">
+  
+    <section class="section social-proof" aria-labelledby="social-proof-title">
       <div class="container">
         <header class="section-header">
-          <h2>Everything you need to stay on track</h2>
-          <p>Built for clarity, not complexity.</p>
+          <h2 id="social-proof-title">Trusted by busy people at teams like</h2>
+        </header>
+
+        <div class="trust-section">
+          <p class="trust-stats">
+            <span aria-hidden="true">⭐</span>
+            Rated 4.8/5 by users • Used by freelancers, students &amp; professionals
+          </p>
+
+          <ul class="logo-row" aria-label="Trusted teams">
+            <li class="logo-item">NovaWorks</li>
+            <li class="logo-item">BrightDesk</li>
+            <li class="logo-item">StudioNine</li>
+            <li class="logo-item">PaperTrail</li>
+            <li class="logo-item">NorthPoint</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section features" id="features" aria-labelledby="features-title">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="features-title">Everything you need to stay on track</h2>
+            <p>Built for clarity, not complexity.</p>
         </header>
 
         <div class="card-grid">
@@ -139,213 +167,226 @@
       </div>
     </section>
 
-    <!-- TESTIMONIALS -->
-    <section class="section testimonials" id="reviews">
+    <section class="section testimonials" id="reviews" aria-labelledby="reviews-title">
       <div class="container">
         <header class="section-header">
-          <h2>People stick with FocusFlow</h2>
+          <h2 id="reviews-title">People stick with FocusFlow</h2>
           <p>Real feedback from busy humans.</p>
         </header>
 
         <div class="card-grid">
           <figure class="card testimonial-card">
-            <blockquote>“I stopped rewriting my to-do list every day.”</blockquote>
-            <figcaption>— Megan, Project Coordinator</figcaption>
+            <blockquote>
+              <p>“I stopped rewriting my to-do list every day.”</p>
+            </blockquote>
+            <figcaption>Megan, Project Coordinator</figcaption>
           </figure>
 
           <figure class="card testimonial-card">
-            <blockquote>“The planner is so simple I actually use it.”</blockquote>
-            <figcaption>— Imran, Student</figcaption>
+            <blockquote>
+              <p>“It’s the first planner I’ve actually stuck with.”</p>
+            </blockquote>
+            <figcaption>Imran, Student</figcaption>
           </figure>
 
           <figure class="card testimonial-card">
-            <blockquote>“I’m getting more done without feeling behind.”</blockquote>
-            <figcaption>— Lerato, Freelancer</figcaption>
+            <blockquote>
+              <p>“I finally feel in control of my workload again.”</p>
+            </blockquote>
+            <figcaption>Lerato, Freelancer</figcaption>
           </figure>
         </div>
       </div>
     </section>
 
-    <!-- PRICING -->
-    <section class="section pricing" id="pricing">
+    <section class="section pricing" id="pricing" aria-labelledby="pricing-title">
       <div class="container">
         <header class="section-header">
-          <h2>Simple pricing, no surprises</h2>
+          <h2 id="pricing-title">Simple pricing, no surprises</h2>
           <p>Start free. Upgrade when you’re ready.</p>
         </header>
 
-        <!-- Pricing Toggle -->
-        <div class="toggle-row" aria-label="Pricing toggle">
+        <div class="toggle-row" aria-label="Billing frequency toggle">
           <span class="toggle-label">Monthly</span>
-
-          <button class="toggle" id="billingToggle" type="button" role="switch" aria-checked="false">
+          <button
+            class="toggle"
+            id="billingToggle"
+            type="button"
+            role="switch"
+            aria-checked="false"
+            aria-label="Toggle yearly billing"
+          >
             <span class="toggle-knob" aria-hidden="true"></span>
           </button>
-
           <span class="toggle-label">
             Yearly <span class="badge" id="saveBadge">Save 20%</span>
           </span>
         </div>
 
-        <!-- Pricing Cards -->
-        <div class="card-grid pricing-grid">
-          <!-- Starter -->
-          <article class="card pricing-card">
-            <h3>Starter</h3>
-            <p class="price">
-              <span class="price-currency">$</span><span class="price-value" data-plan="starter">0</span>
-              <span class="price-term">/mo</span>
-            </p>
-            <ul class="list">
-              <li>10 tasks/day</li>
-              <li>1 project</li>
-              <li>Basic reminders</li>
-            </ul>
-            <a class="btn btn-secondary btn-block" href="#signup">Get Starter</a>
-          </article>
+          <div class="card-grid pricing-grid">
+            <article class="card pricing-card" aria-labelledby="starter-plan">
+              <h3 id="starter-plan">Starter</h3>
+              <p class="price">
+                <span class="price-currency">$</span>
+                <span class="price-value" data-plan="starter">0</span>
+                <span class="price-term">/mo</span>
+              </p>
+              <ul class="list">
+                <li>10 tasks/day</li>
+                <li>1 project</li>
+                <li>Basic reminders</li>
+              </ul>
+              <a class="btn btn-secondary btn-block" href="#signup">Get Starter</a>
+            </article>
 
-          <!-- Pro -->
-          <article class="card pricing-card featured">
-            <p class="pill">Most popular</p>
-            <h3>Pro</h3>
-            <p class="price">
-              <span class="price-currency">$</span><span class="price-value" data-plan="pro">9</span>
-              <span class="price-term">/mo</span>
-            </p>
-            <p class="fineprint" id="proBilledNote">Billed monthly</p>
-            <ul class="list">
-              <li>Unlimited tasks</li>
-              <li>Unlimited projects</li>
-              <li>Focus sessions</li>
-              <li>Weekly review</li>
-            </ul>
-            <a class="btn btn-primary btn-block" href="#signup">Start Pro</a>
-          </article>
+            <article class="card pricing-card featured" aria-labelledby="pro-plan">
+              <p class="pill">Most popular</p>
+              <h3 id="pro-plan">Pro</h3>
+              <p class="price">
+                <span class="price-currency">$</span>
+                <span class="price-value" data-plan="pro">9</span>
+                <span class="price-term">/mo</span>
+              </p>
+              <p class="fineprint" id="proBilledNote">Billed monthly</p>
+              <ul class="list">
+                <li>Unlimited tasks</li>
+                <li>Unlimited projects</li>
+                <li>Focus sessions</li>
+                <li>Weekly review</li>
+              </ul>
+              <a class="btn btn-primary btn-block" href="#signup">Start Pro</a>
+            </article>
 
-          <!-- Team -->
-          <article class="card pricing-card">
-            <h3>Team</h3>
-            <p class="price">
-              <span class="price-currency">$</span><span class="price-value" data-plan="team">19</span>
-              <span class="price-term">/mo</span>
-            </p>
-            <p class="fineprint" id="teamBilledNote">Billed monthly</p>
-            <ul class="list">
-              <li>Everything in Pro</li>
-              <li>Team spaces</li>
-              <li>Shared templates</li>
-              <li>Admin controls</li>
-            </ul>
-            <a class="btn btn-secondary btn-block" href="#signup">Contact Sales</a>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- FAQ -->
-    <section class="section faq" id="faq">
-      <div class="container">
-        <header class="section-header">
-          <h2>Questions, answered</h2>
-          <p>Everything you need to know before you start.</p>
-        </header>
-
-        <div class="accordion" id="faqAccordion">
-          <div class="accordion-item">
-            <button class="accordion-trigger" type="button" aria-expanded="false">
-              Do I need a credit card for the trial?
-            </button>
-            <div class="accordion-panel" hidden>
-              <p>No — start free, upgrade anytime.</p>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <button class="accordion-trigger" type="button" aria-expanded="false">
-              Can I cancel anytime?
-            </button>
-            <div class="accordion-panel" hidden>
-              <p>Yes. Your plan stays active until the end of the billing period.</p>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <button class="accordion-trigger" type="button" aria-expanded="false">
-              Does it work on mobile?
-            </button>
-            <div class="accordion-panel" hidden>
-              <p>Yes — the interface is responsive and sync-ready.</p>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <button class="accordion-trigger" type="button" aria-expanded="false">
-              Is this good for ADHD / overwhelm?
-            </button>
-            <div class="accordion-panel" hidden>
-              <p>Many users find the simple structure helpful, but experiences differ.</p>
-            </div>
+            <article class="card pricing-card" aria-labelledby="team-plan">
+              <h3 id="team-plan">Team</h3>
+              <p class="price">
+                <span class="price-currency">$</span>
+                <span class="price-value" data-plan="team">19</span>
+                <span class="price-term">/mo</span>
+              </p>
+              <p class="fineprint" id="teamBilledNote">Billed monthly</p>
+              <ul class="list">
+                <li>Everything in Pro</li>
+                <li>Team spaces</li>
+                <li>Shared templates</li>
+                <li>Admin controls</li>
+              </ul>
+              <a class="btn btn-secondary btn-block" href="#signup">Contact Sales</a>
+            </article>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- FINAL CTA / SIGNUP -->
-    <section class="section final-cta" id="signup">
-      <div class="container cta-box">
-        <h2>Ready to feel on top of your day?</h2>
-        <p>Start your free 7-day trial in under a minute.</p>
+      <section class="section faq" id="faq" aria-labelledby="faq-title">
+        <div class="container">
+          <header class="section-header">
+            <h2 id="faq-title">Questions, answered</h2>
+            <p>Everything you need to know before you start.</p>
+          </header>
 
-        <form class="signup-form" id="signupForm" novalidate>
-          <label class="sr-only" for="email">Email</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="you@example.com"
-            autocomplete="email"
-            required
-          />
-          <button class="btn btn-primary" type="submit">Start Free Trial</button>
-          <p class="form-hint">Free for 7 days • No credit card required</p>
-        </form>
-      </div>
-    </section>
+          <div class="accordion" id="faqAccordion">
+            <article class="accordion-item">
+              <h3>
+                <button class="accordion-trigger" type="button" aria-expanded="false">
+                  Do I need a credit card for the trial?
+                </button>
+              </h3>
+              <div class="accordion-panel" hidden>
+                <p>No — start free, upgrade anytime.</p>
+              </div>
+            </article>
 
+            <article class="accordion-item">
+              <h3>
+                <button class="accordion-trigger" type="button" aria-expanded="false">
+                  Can I cancel anytime?
+                </button>
+              </h3>
+              <div class="accordion-panel" hidden>
+                <p>Yes. Your plan stays active until the end of the billing period.</p>
+              </div>
+            </article>
+
+            <article class="accordion-item">
+              <h3>
+                <button class="accordion-trigger" type="button" aria-expanded="false">
+                  Does it work on mobile?
+                </button>
+              </h3>
+              <div class="accordion-panel" hidden>
+                <p>Yes — the interface is responsive and sync-ready.</p>
+              </div>
+            </article>
+
+            <article class="accordion-item">
+              <h3>
+                <button class="accordion-trigger" type="button" aria-expanded="false">
+                  Is this good for ADHD / overwhelm?
+                </button>
+              </h3>
+              <div class="accordion-panel" hidden>
+                <p>Many users find the simple structure helpful, but experiences differ.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section final-cta" id="signup" aria-labelledby="signup-title">
+        <div class="container cta-box">
+          <header>
+            <h2 id="signup-title">Ready to feel on top of your day?</h2>
+            <p>Start your free 7-day trial in under a minute.</p>
+          </header>
+
+          <form class="signup-form" id="signupForm" novalidate>
+            <label class="sr-only" for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="you@example.com"
+              autocomplete="email"
+              required
+            />
+            <button class="btn btn-primary" type="submit">Start Free Trial</button>
+            <p class="form-hint">Free for 7 days • No credit card required</p>
+          </form>
+        </div>
+      </section>
   </main>
 
-  <!-- FOOTER -->
   <footer class="site-footer">
     <div class="container footer-grid">
-      <div class="footer-col">
-        <h3 class="footer-title">FocusFlow</h3>
+      <section class="footer-col" aria-labelledby="footer-brand">
+        <h2 class="footer-title" id="footer-brand">FocusFlow</h2>
         <p class="footer-text">A calmer way to plan your day and stay consistent.</p>
-      </div>
+      </section>
 
-      <div class="footer-col">
-        <h4 class="footer-heading">Product</h4>
+      <nav class="footer-col" aria-labelledby="footer-product">
+        <h2 class="footer-heading" id="footer-product">Product</h2>
         <ul class="footer-links">
           <li><a href="#features">Features</a></li>
           <li><a href="#pricing">Pricing</a></li>
           <li><a href="#faq">FAQ</a></li>
         </ul>
-      </div>
+      </nav>
 
-      <div class="footer-col">
-        <h4 class="footer-heading">Company</h4>
+      <nav class="footer-col" aria-labelledby="footer-company">
+        <h2 class="footer-heading" id="footer-company">Company</h2>
         <ul class="footer-links">
           <li><a href="#top">About</a></li>
           <li><a href="#signup">Contact</a></li>
         </ul>
-      </div>
+      </nav>
 
-      <div class="footer-col">
-        <h4 class="footer-heading">Legal</h4>
+      <nav class="footer-col" aria-labelledby="footer-legal">
+        <h2 class="footer-heading" id="footer-legal">Legal</h2>
         <ul class="footer-links">
           <li><a href="#top">Privacy</a></li>
           <li><a href="#top">Terms</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
 
     <div class="container footer-bottom">
@@ -353,11 +394,23 @@
     </div>
   </footer>
 
-  <!-- Toast -->
-  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true" hidden>
-    <span class="toast-message" id="toastMessage">Toast message</span>
-
-    <button class="toast-close" id="toastClose" type="button" aria-label="Close notification">x</button>
+  <div
+    class="toast"
+    id="toast"
+    role="status"
+    aria-live="polite"
+    aria-atomic="true"
+    hidden
+  >
+    <p class="toast-message" id="toastMessage">Toast message</p>
+    <button
+      class="toast-close"
+      id="toastClose"
+      type="button"
+      aria-label="Close notification"
+    >
+      ×
+    </button>
   </div>
 
   <script src="app.js"></script>

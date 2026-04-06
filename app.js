@@ -165,7 +165,7 @@
   const proNote = $("#proBilledNote");
   const teamNote = $("#teamBilledNote");
   const priceEls = $$("[data-plan]");
-
+    
   // Monthly base prices
   const pricing = {
     starter: { monthly: 0, yearly: 0 }, // keep free
@@ -184,7 +184,8 @@
     isYearly = yearly;
 
     if (billingToggle) billingToggle.setAttribute("aria-checked", String(isYearly));
-    if (saveBadge) saveBadge.hidden = !isYearly;
+    /* if (saveBadge) saveBadge.hidden = !isYearly; */
+    if (saveBadge) saveBadge.classList.toggle("visible", isYearly)
 
     // Update price values
     priceEls.forEach((el) => {
