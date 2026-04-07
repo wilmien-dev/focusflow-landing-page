@@ -50,13 +50,28 @@ It demonstrates the ability to translate UI concepts into a polished, responsive
 ---
 
 ## 📸 Screenshots
+Header and Hero section
 ![Header and Hero section](screenshots/image.png)
+
+Pricing toggle Montly
 ![Pricing toggle Monthly](screenshots/image-1.png)
+
+Pricing toggle Yearly
 ![Pricing toggle Yearly](screenshots/image-2.png)
+
+Email/Sign-up form
 ![Email/Sign-up form](screenshots/image-5.png)
+
+Validation & Toast Feedbback
 ![Validation & Toast Feedback](screenshots/image-6.png)
+
+Mobile Navigation Menu
 ![Mobile Navigation Menu](screenshots/image-4.png)
+
+Mobile Navigation Open
 ![Mobile Navigation Open](screenshots/image-7.png)
+
+Footer
 ![Footer](screenshots/image-3.png)
 
 ---
